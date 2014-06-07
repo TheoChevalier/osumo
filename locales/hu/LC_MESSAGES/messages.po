@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: First Last <email@email.com> \n"
-"POT-Creation-Date: 2013-08-30T10:44:47.997582\n"
+"POT-Creation-Date: 2014-06-06T14:03:14.876376\n"
 "PO-Revision-Date: YEAR-MM-DD HH:MM\n"
 "Last-Translator: First Last <email@email.com>\n"
 "Language-Team: Team <team@email.com>\n"
@@ -14,10 +14,6 @@ msgstr ""
 
 #: static/partials/search.html:25
 msgid "You must enter a query and select a product in order to search."
-msgstr ""
-
-#: static/partials/select_doc.html:10
-msgid "Articles"
 msgstr ""
 
 #: static/partials/install.html:70
@@ -48,7 +44,7 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:117
+#: static/js/develop/controllers/install.js:120
 msgid "It seems like you don\\'t have a network connection"
 msgstr ""
 
@@ -74,15 +70,17 @@ msgstr ""
 msgid "Select the product articles you'd like to read"
 msgstr ""
 
-#: static/partials/select_doc.html:2
-msgid "Subtopics"
+#: static/partials/about.html:2
+msgid ""
+"Offline SUMO is a free and open source application made to bring content on "
+"support.mozilla.org offline."
 msgstr ""
 
 #: templates/app.html:56
 msgid "Your app is out of date and needs an upgrade."
 msgstr ""
 
-#: static/js/develop/app.js:200
+#: static/js/develop/app.js:206
 msgid "Update failed. Please try again later."
 msgstr ""
 
@@ -105,12 +103,16 @@ msgid ""
 "    "
 msgstr ""
 
+#: static/js/develop/controllers/misc.js:94
+msgid "Page Not Found"
+msgstr ""
+
 #: static/partials/doc.html:12
 msgid "click here."
 msgstr ""
 
-#: static/js/develop/controllers/misc.js:94
-msgid "Page Not Found"
+#: static/js/develop/filters.js:30
+msgid " minutes"
 msgstr ""
 
 #: static/js/develop/controllers/misc.js:69
@@ -129,7 +131,7 @@ msgstr ""
 msgid "Navigation"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:119
+#: static/js/develop/controllers/install.js:122
 msgid ""
 "Downloading product failed with: ' + status)});\n"
 "        }\n"
@@ -146,8 +148,12 @@ msgstr ""
 msgid "Updating articles..."
 msgstr ""
 
-#: static/js/develop/filters.js:32
-msgid "about an hour"
+#: static/js/develop/controllers/install.js:145
+msgid "There are no updates available at this time."
+msgstr ""
+
+#: static/js/develop/filters.js:34
+msgid " hours"
 msgstr ""
 
 #: templates/app.html:29
@@ -158,21 +164,17 @@ msgstr ""
 msgid "There are no documents for this language."
 msgstr ""
 
-#: static/js/develop/filters.js:30
-msgid " minutes"
-msgstr ""
-
-#: static/partials/about.html:2
+#: static/partials/doc.html:12
 msgid ""
-"Offline SUMO is a free and open source application made to bring content on "
-"support.mozilla.org offline."
+"The content you're looking for has been archived. To view it on support."
+"mozilla.org, "
 msgstr ""
 
 #: static/js/develop/filters.js:36
 msgid "one day"
 msgstr ""
 
-#: static/js/develop/app.js:197
+#: static/js/develop/app.js:203
 msgid "Articles are all updated!"
 msgstr ""
 
@@ -186,8 +188,8 @@ msgid ""
 "using Firefox instead!"
 msgstr ""
 
-#: static/partials/about.html:12
-msgid "Source Code"
+#: static/partials/select_doc.html:10
+msgid "Articles"
 msgstr ""
 
 #: templates/app.html:???
@@ -196,12 +198,6 @@ msgstr ""
 
 #: templates/app.html:30
 msgid "Switch Language"
-msgstr ""
-
-#: static/js/develop/services/dataservice.js:82
-msgid ""
-"It seems like you are using private browsing mode. This app does not support "
-"that mode and will not function correctly."
 msgstr ""
 
 #: static/js/develop/app.js:82
@@ -216,37 +212,37 @@ msgstr ""
 msgid "Install to device"
 msgstr ""
 
-#: static/partials/search.html:14
-msgid "here"
+#: static/partials/select_doc.html:2
+msgid "Subtopics"
 msgstr ""
 
 #: static/partials/404.html:3
 msgid "Sorry, we couldn't find the page you were looking for."
 msgstr ""
 
-#: static/js/develop/filters.js:34
-msgid "about "
+#: static/js/develop/services/dataservice.js:82
+msgid ""
+"It seems like you are using private browsing mode. This app does not support "
+"that mode and will not function correctly."
 msgstr ""
 
 #: static/js/develop/controllers/misc.js:56
 msgid "Products"
 msgstr ""
 
-#: static/partials/about.html:9
-msgid "Appcache Hash"
+#: static/partials/search.html:14
+msgid "here"
 msgstr ""
 
-#: static/partials/doc.html:12
-msgid ""
-"The content you're looking for has been archived. To view it on support."
-"mozilla.org, "
+#: static/partials/about.html:9
+msgid "Appcache Hash"
 msgstr ""
 
 #: static/js/develop/controllers/misc.js:66
 msgid "Firefox"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:110
+#: static/js/develop/controllers/install.js:111
 msgid "Downloaded!"
 msgstr ""
 
@@ -254,7 +250,7 @@ msgstr ""
 msgid "in "
 msgstr ""
 
-#: static/js/develop/controllers/install.js:140
+#: static/js/develop/controllers/install.js:143
 msgid "Check update"
 msgstr ""
 
@@ -266,7 +262,7 @@ msgstr ""
 msgid "This page contains {{ numOfUnloadedImages() }} unloaded images."
 msgstr ""
 
-#: static/js/develop/controllers/install.js:132
+#: static/js/develop/controllers/install.js:135
 msgid "Deleted!"
 msgstr ""
 
@@ -274,11 +270,11 @@ msgstr ""
 msgid "Choose a product to search in"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:142
-msgid "There is no updates available at this time."
+#: static/partials/install.html:28
+msgid "Desktop web browser by Mozilla"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:138
+#: static/js/develop/controllers/install.js:141
 msgid "Checking..."
 msgstr ""
 
@@ -286,8 +282,8 @@ msgstr ""
 msgid "Topics"
 msgstr ""
 
-#: static/partials/install.html:28
-msgid "Desktop web browser by Mozilla"
+#: static/js/develop/filters.js:32
+msgid "about an hour"
 msgstr ""
 
 #: static/js/develop/directives/img.js:89
@@ -311,7 +307,7 @@ msgid "No results found."
 msgstr ""
 
 #: static/js/develop/filters.js:34
-msgid " hours"
+msgid "about "
 msgstr ""
 
 #: static/partials/install.html:54
@@ -332,6 +328,10 @@ msgstr ""
 
 #: static/partials/search.html:2
 msgid "Query"
+msgstr ""
+
+#: static/partials/about.html:12
+msgid "Source Code"
 msgstr ""
 
 #: static/js/develop/controllers/misc.js:104

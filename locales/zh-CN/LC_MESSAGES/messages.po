@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1\n"
 "Report-Msgid-Bugs-To: First Last <email@email.com> \n"
-"POT-Creation-Date: 2013-08-30T10:44:47.997582\n"
+"POT-Creation-Date: 2014-06-06T14:03:14.876376\n"
 "PO-Revision-Date: 2013-06-25T14:45:00\n"
 "Last-Translator: Shuhao Wu <shuhao@shuhaowu.com>\n"
 "Language-Team: Team <team@email.com>\n"
@@ -15,10 +15,6 @@ msgstr ""
 #: static/partials/search.html:25
 msgid "You must enter a query and select a product in order to search."
 msgstr ""
-
-#: static/partials/select_doc.html:10
-msgid "Articles"
-msgstr "文章"
 
 #: static/partials/install.html:70
 msgid "Delete"
@@ -49,7 +45,7 @@ msgstr "天"
 msgid "About"
 msgstr "大概"
 
-#: static/js/develop/controllers/install.js:117
+#: static/js/develop/controllers/install.js:120
 msgid "It seems like you don\\'t have a network connection"
 msgstr ""
 
@@ -75,15 +71,17 @@ msgstr "其他"
 msgid "Select the product articles you'd like to read"
 msgstr ""
 
-#: static/partials/select_doc.html:2
-msgid "Subtopics"
-msgstr "副主题"
+#: static/partials/about.html:2
+msgid ""
+"Offline SUMO is a free and open source application made to bring content on "
+"support.mozilla.org offline."
+msgstr ""
 
 #: templates/app.html:56
 msgid "Your app is out of date and needs an upgrade."
 msgstr "您的软件需要更新。"
 
-#: static/js/develop/app.js:200
+#: static/js/develop/app.js:206
 #, fuzzy
 msgid "Update failed. Please try again later."
 msgstr "更新失败，请稍后再试。"
@@ -107,13 +105,17 @@ msgid ""
 "    "
 msgstr ""
 
+#: static/js/develop/controllers/misc.js:94
+msgid "Page Not Found"
+msgstr ""
+
 #: static/partials/doc.html:12
 msgid "click here."
 msgstr "点击这里。"
 
-#: static/js/develop/controllers/misc.js:94
-msgid "Page Not Found"
-msgstr ""
+#: static/js/develop/filters.js:30
+msgid " minutes"
+msgstr "分"
 
 #: static/js/develop/controllers/misc.js:69
 msgid "Firefox OS"
@@ -131,7 +133,7 @@ msgstr ""
 msgid "Navigation"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:119
+#: static/js/develop/controllers/install.js:122
 msgid ""
 "Downloading product failed with: ' + status)});\n"
 "        }\n"
@@ -148,9 +150,13 @@ msgstr ""
 msgid "Updating articles..."
 msgstr ""
 
-#: static/js/develop/filters.js:32
-msgid "about an hour"
-msgstr "大概一小时"
+#: static/js/develop/controllers/install.js:145
+msgid "There are no updates available at this time."
+msgstr ""
+
+#: static/js/develop/filters.js:34
+msgid " hours"
+msgstr "小时"
 
 #: templates/app.html:29
 #, fuzzy
@@ -161,21 +167,17 @@ msgstr "文章"
 msgid "There are no documents for this language."
 msgstr ""
 
-#: static/js/develop/filters.js:30
-msgid " minutes"
-msgstr "分"
-
-#: static/partials/about.html:2
+#: static/partials/doc.html:12
 msgid ""
-"Offline SUMO is a free and open source application made to bring content on "
-"support.mozilla.org offline."
-msgstr ""
+"The content you're looking for has been archived. To view it on support."
+"mozilla.org, "
+msgstr "这篇文章过时了。如果您想在support.mozilla.org上看这篇文章，"
 
 #: static/js/develop/filters.js:36
 msgid "one day"
 msgstr "一天"
 
-#: static/js/develop/app.js:197
+#: static/js/develop/app.js:203
 msgid "Articles are all updated!"
 msgstr ""
 
@@ -190,9 +192,9 @@ msgid ""
 "using Firefox instead!"
 msgstr "您的浏览器和这个程序不兼容。您可以用Firefox来运行这个程序。"
 
-#: static/partials/about.html:12
-msgid "Source Code"
-msgstr ""
+#: static/partials/select_doc.html:10
+msgid "Articles"
+msgstr "文章"
 
 #: templates/app.html:???
 msgid "Search"
@@ -202,12 +204,6 @@ msgstr "搜索"
 #, fuzzy
 msgid "Switch Language"
 msgstr "选择语言"
-
-#: static/js/develop/services/dataservice.js:82
-msgid ""
-"It seems like you are using private browsing mode. This app does not support "
-"that mode and will not function correctly."
-msgstr ""
 
 #: static/js/develop/app.js:82
 msgid "Offline Mozilla Support"
@@ -222,38 +218,38 @@ msgstr ""
 msgid "Install to device"
 msgstr "安装"
 
-#: static/partials/search.html:14
-msgid "here"
-msgstr ""
+#: static/partials/select_doc.html:2
+msgid "Subtopics"
+msgstr "副主题"
 
 #: static/partials/404.html:3
 msgid "Sorry, we couldn't find the page you were looking for."
 msgstr ""
 
-#: static/js/develop/filters.js:34
-msgid "about "
-msgstr "大概"
+#: static/js/develop/services/dataservice.js:82
+msgid ""
+"It seems like you are using private browsing mode. This app does not support "
+"that mode and will not function correctly."
+msgstr ""
 
 #: static/js/develop/controllers/misc.js:56
 #, fuzzy
 msgid "Products"
 msgstr "产品"
 
+#: static/partials/search.html:14
+msgid "here"
+msgstr ""
+
 #: static/partials/about.html:9
 msgid "Appcache Hash"
 msgstr ""
-
-#: static/partials/doc.html:12
-msgid ""
-"The content you're looking for has been archived. To view it on support."
-"mozilla.org, "
-msgstr "这篇文章过时了。如果您想在support.mozilla.org上看这篇文章，"
 
 #: static/js/develop/controllers/misc.js:66
 msgid "Firefox"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:110
+#: static/js/develop/controllers/install.js:111
 #, fuzzy
 msgid "Downloaded!"
 msgstr "下载内容"
@@ -262,7 +258,7 @@ msgstr "下载内容"
 msgid "in "
 msgstr ""
 
-#: static/js/develop/controllers/install.js:140
+#: static/js/develop/controllers/install.js:143
 msgid "Check update"
 msgstr ""
 
@@ -274,7 +270,7 @@ msgstr ""
 msgid "This page contains {{ numOfUnloadedImages() }} unloaded images."
 msgstr "这篇文章里有{{ numOfUnloadedImages() }}张未下载的图片。"
 
-#: static/js/develop/controllers/install.js:132
+#: static/js/develop/controllers/install.js:135
 #, fuzzy
 msgid "Deleted!"
 msgstr "删除"
@@ -283,11 +279,11 @@ msgstr "删除"
 msgid "Choose a product to search in"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:142
-msgid "There is no updates available at this time."
+#: static/partials/install.html:28
+msgid "Desktop web browser by Mozilla"
 msgstr ""
 
-#: static/js/develop/controllers/install.js:138
+#: static/js/develop/controllers/install.js:141
 msgid "Checking..."
 msgstr ""
 
@@ -295,9 +291,9 @@ msgstr ""
 msgid "Topics"
 msgstr "主题"
 
-#: static/partials/install.html:28
-msgid "Desktop web browser by Mozilla"
-msgstr ""
+#: static/js/develop/filters.js:32
+msgid "about an hour"
+msgstr "大概一小时"
 
 #: static/js/develop/directives/img.js:89
 msgid "A data connection is needed for downloading images."
@@ -321,8 +317,8 @@ msgid "No results found."
 msgstr "没有结果。"
 
 #: static/js/develop/filters.js:34
-msgid " hours"
-msgstr "小时"
+msgid "about "
+msgstr "大概"
 
 #: static/partials/install.html:54
 msgid "Web browser for phones and tablets"
@@ -343,6 +339,10 @@ msgstr "下载内容"
 
 #: static/partials/search.html:2
 msgid "Query"
+msgstr ""
+
+#: static/partials/about.html:12
+msgid "Source Code"
 msgstr ""
 
 #: static/js/develop/controllers/misc.js:104
